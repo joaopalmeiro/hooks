@@ -1,0 +1,17 @@
+{
+  "name": "@joaopalmeiro/hooks",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopalmeiro/hooks.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/hooks/issues"
+  },
+  "homepage": "https://github.com/joaopalmeiro/hooks#readme",
+  "volta": {
+    "node": "16.13.1",
+    "npm": "8.1.2"
+  }
+}
