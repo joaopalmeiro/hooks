@@ -21,3 +21,5 @@
 - `npm install --save-peer react` and `npm install --save-dev react`.
 - `npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import @joaopalmeiro/prettier-config @joaopalmeiro/eslint-config-react`.
 - [react-hooks-testing-library](https://react-hooks-testing-library.com/).
+- `npm install --save-dev @testing-library/react-hooks react-dom`.
+- [Vitest](https://github.com/vitest-dev/vitest). [react-testing-lib](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib) example.
