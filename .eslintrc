@@ -1,3 +1,5 @@
 {
-    "extends": "@joaopalmeiro/eslint-config-react"
+    // https://github.com/jest-community/eslint-plugin-jest#shareable-configurations
+    // https://github.com/jest-community/eslint-plugin-jest#usage
+    "extends": ["@joaopalmeiro/eslint-config-react", "plugin:jest/all"]
 }

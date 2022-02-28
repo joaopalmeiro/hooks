@@ -21,5 +21,10 @@
 - `npm install --save-peer react` and `npm install --save-dev react`.
 - `npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import @joaopalmeiro/prettier-config @joaopalmeiro/eslint-config-react`.
 - [react-hooks-testing-library](https://react-hooks-testing-library.com/).
-- `npm install --save-dev @testing-library/react-hooks react-dom`.
+- `npm install --save-dev @testing-library/react-hooks react-test-renderer`.
 - [Vitest](https://github.com/vitest-dev/vitest). [react-testing-lib](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib) example.
+- Jest:
+  - [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest).
+  - [Setup without Create React App](https://jestjs.io/docs/tutorial-react#setup-without-create-react-app).
+  - `npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer`.
+  - `npm install --save-dev eslint-plugin-jest`.
