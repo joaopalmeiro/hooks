@@ -15,7 +15,11 @@
 
 - Array API vs. Object API. Follow the Array API because it is more similar to the `useState()` hook and returns the same reference for all actions, thus avoiding unnecessary re-renders (they are memoized under the hood).
 - Use [CodeSandbox](https://codesandbox.io/) (or similar) to test hooks.
-- [Mantine Hooks](https://github.com/mantinedev/mantine/tree/master/src/mantine-hooks).
+- Packages:
+  - [Mantine Hooks](https://github.com/mantinedev/mantine/tree/master/src/mantine-hooks).
+  - [react-hanger](https://github.com/kitze/react-hanger).
+  - [@chakra-ui/hooks](https://github.com/chakra-ui/chakra-ui/tree/main/packages/hooks).
+  - [react-use](https://github.com/streamich/react-use).
 
 ## Package
 
@@ -30,7 +34,11 @@
   - `npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer`.
   - `npm install --save-dev eslint-plugin-jest`.
   - [`test.each` or `it.each`](https://jestjs.io/docs/api#testeachtablename-fn-timeout): to parameterize tests like in pytest.
+- [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library).
 
 ## Misc
 
 - [Image Grid](https://www.figma.com/community/plugin/824130560660439050/Image-Grid) Figma plugin.
+- [Using Changesets with pnpm](https://pnpm.io/using-changesets).
+- [Navigator.clipboard](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard).
+- [Sucrase](https://github.com/alangpierce/sucrase): alternative to Babel.
