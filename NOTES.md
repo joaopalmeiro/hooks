@@ -28,3 +28,7 @@
   - [Setup without Create React App](https://jestjs.io/docs/tutorial-react#setup-without-create-react-app).
   - `npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer`.
   - `npm install --save-dev eslint-plugin-jest`.
+
+## Misc
+
+- [Image Grid](https://www.figma.com/community/plugin/824130560660439050/Image-Grid) Figma plugin.
