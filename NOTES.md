@@ -15,6 +15,7 @@
 
 - Array API vs. Object API. Follow the Array API because it is more similar to the `useState()` hook and returns the same reference for all actions, thus avoiding unnecessary re-renders (they are memoized under the hood).
 - Use [CodeSandbox](https://codesandbox.io/) (or similar) to test hooks.
+- [Mantine Hooks](https://github.com/mantinedev/mantine/tree/master/src/mantine-hooks).
 
 ## Package
 
@@ -28,6 +29,7 @@
   - [Setup without Create React App](https://jestjs.io/docs/tutorial-react#setup-without-create-react-app).
   - `npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer`.
   - `npm install --save-dev eslint-plugin-jest`.
+  - [`test.each` or `it.each`](https://jestjs.io/docs/api#testeachtablename-fn-timeout): to parameterize tests like in pytest.
 
 ## Misc
 
