@@ -1,5 +1,15 @@
 # Notes
 
+## Development
+
+- `npm install`.
+- `npm pack --dry-run`.
+
+## Deployment
+
+- `npm version minor` or `npm version patch` or `npm version major`.
+- `git push --follow-tags`.
+
 ## WebStorm
 
 - [Project settings](https://www.jetbrains.com/help/webstorm/configure-project-settings.html) documentation.
