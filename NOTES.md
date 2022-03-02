@@ -35,6 +35,7 @@
   - `npm install --save-dev eslint-plugin-jest`.
   - [`test.each` or `it.each`](https://jestjs.io/docs/api#testeachtablename-fn-timeout): to parameterize tests like in pytest.
 - [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library).
+- [Mark the file as side-effect-free](https://webpack.js.org/guides/tree-shaking/#mark-the-file-as-side-effect-free).
 
 ## Misc
 
@@ -42,3 +43,8 @@
 - [Using Changesets with pnpm](https://pnpm.io/using-changesets).
 - [Navigator.clipboard](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard).
 - [Sucrase](https://github.com/alangpierce/sucrase): alternative to Babel.
+- [babel-plugin-lodash](https://github.com/lodash/babel-plugin-lodash) and [lodash-webpack-plugin](https://www.npmjs.com/package/lodash-webpack-plugin).
+- [lodash-es](https://www.npmjs.com/package/lodash-es) package.
+- [Per Method Packages](https://lodash.com/per-method-packages).
+- [polished](https://polished.js.org/) package.
+- [Bundlephobia](https://bundlephobia.com/).
