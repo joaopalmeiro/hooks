@@ -8,6 +8,7 @@ const useToggle = (initial = false) => {
     const [value, setValue] = useState(initial);
 
     // useCallback is used in order to preserve the reference to the setter function.
+    // const toggle = () => setValue((v) => !v);
     const toggle = useCallback(() => setValue((v) => !v), []);
 
     return [value, toggle];

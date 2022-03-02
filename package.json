@@ -45,7 +45,8 @@
         "react-test-renderer": "^17.0.2"
     },
     "scripts": {
-        "test": "jest",
+        "test": "jest --verbose",
+        "test:config": "jest --showConfig",
         "build": "microbundle --output dist/ --sourcemap false --format modern,cjs --compress true"
     },
     "keywords": [
