@@ -31,7 +31,15 @@
   - [@chakra-ui/hooks](https://github.com/chakra-ui/chakra-ui/tree/main/packages/hooks).
   - [react-use](https://github.com/streamich/react-use).
   - [React Hooks Lib](https://github.com/beizhedenglong/react-hooks-lib).
+  - [usehooks-ts](https://usehooks-ts.com/).
+  - [React Recipes](https://github.com/craig1123/react-recipes).
 - [useHooks](https://usehooks.com/) website.
+- [awesome-react-hooks](https://github.com/rehooks/awesome-react-hooks) repo.
+- [Hooks.guide](https://hooks-guide.netlify.app/) website.
+- `useClipboard`:
+  - [Mantine Hooks](https://github.com/mantinedev/mantine/blob/master/src/mantine-hooks/src/use-clipboard/use-clipboard.ts).
+  - [React Recipes](https://github.com/craig1123/react-recipes/blob/master/src/useCopyClipboard.js).
+  - [usehooks-ts](https://usehooks-ts.com/react-hook/use-copy-to-clipboard).
 
 ## Package
 
