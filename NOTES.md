@@ -70,3 +70,5 @@
 - Squash: `git rebase --interactive HEAD~N`.
 - [preconstruct](https://github.com/preconstruct/preconstruct).
 - [pretty-quick](https://www.npmjs.com/package/pretty-quick).
+- [Delete a Git tag](https://www.manikrathee.com/how-to-delete-a-tag-in-git.html):
+  - `git tag -d v0.1.0` (local tag) + `git push origin :refs/tags/v0.1.0` (remote tag).
