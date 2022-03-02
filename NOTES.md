@@ -21,6 +21,7 @@
   - [@chakra-ui/hooks](https://github.com/chakra-ui/chakra-ui/tree/main/packages/hooks).
   - [react-use](https://github.com/streamich/react-use).
   - [React Hooks Lib](https://github.com/beizhedenglong/react-hooks-lib).
+- [useHooks](https://usehooks.com/) website.
 
 ## Package
 
