@@ -20,6 +20,7 @@
   - [react-hanger](https://github.com/kitze/react-hanger).
   - [@chakra-ui/hooks](https://github.com/chakra-ui/chakra-ui/tree/main/packages/hooks).
   - [react-use](https://github.com/streamich/react-use).
+  - [React Hooks Lib](https://github.com/beizhedenglong/react-hooks-lib).
 
 ## Package
 
@@ -36,6 +37,10 @@
   - [`test.each` or `it.each`](https://jestjs.io/docs/api#testeachtablename-fn-timeout): to parameterize tests like in pytest.
 - [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library).
 - [Mark the file as side-effect-free](https://webpack.js.org/guides/tree-shaking/#mark-the-file-as-side-effect-free).
+- Microbundle:
+  - `npm install --save-dev microbundle`.
+  - `microbundle --jsx 'React.createElement' --jsxImportSource react --globals react/jsx-runtime=jsx --format modern,cjs` ([source](https://github.com/developit/microbundle/issues/763#issuecomment-877388109)).
+  - `microbundle --jsx React.createElement --jsxFragment React.Fragment --jsxImportSource react` ([source](https://www.fabiofranchino.com/blog/create-react-reusable-components-library-with-microbundle/)).
 
 ## Misc
 
@@ -48,3 +53,9 @@
 - [Per Method Packages](https://lodash.com/per-method-packages).
 - [polished](https://polished.js.org/) package.
 - [Bundlephobia](https://bundlephobia.com/).
+- GitHub Actions or GHA.
+- [actions/cache](https://github.com/actions/cache). [Node - npm](https://github.com/actions/cache/blob/main/examples.md#node---npm).
+- [auto-changelog](https://github.com/CookPete/auto-changelog).
+- Squash: `git rebase --interactive HEAD~N`.
+- [preconstruct](https://github.com/preconstruct/preconstruct).
+- [pretty-quick](https://www.npmjs.com/package/pretty-quick).

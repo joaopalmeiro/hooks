@@ -1,6 +1,12 @@
 {
     "name": "@joaopalmeiro/hooks",
     "version": "0.0.1",
+    "source": "src/index.js",
+    "files": [
+        "dist"
+    ],
+    "main": "dist/hooks.js",
+    "module": "dist/hooks.modern.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/joaopalmeiro/hooks.git"
@@ -33,11 +39,19 @@
         "eslint-plugin-react": "^7.29.2",
         "eslint-plugin-react-hooks": "^4.3.0",
         "jest": "^27.5.1",
+        "microbundle": "^0.14.2",
         "prettier": "^2.5.1",
         "react": "^17.0.2",
         "react-test-renderer": "^17.0.2"
     },
     "scripts": {
-        "test": "jest"
-    }
+        "test": "jest",
+        "build": "microbundle --output dist/ --sourcemap false --format modern,cjs --compress true"
+    },
+    "keywords": [
+        "react-hooks",
+        "hooks",
+        "react",
+        "utils"
+    ]
 }
